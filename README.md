@@ -25,3 +25,6 @@ After initial analyis check of data, following data ckena was done to ensure we 
 I trimmed rows for outliers based on pdays >400, Previous >25 and campign >30. I also replaced all 'Yes'/'No' in to 1 and 0 for columns_with_yes_no = ['default', 'housing', 'loan','y']
 For all the columns_with_categories such as for ['job', 'marital', 'education', 'contact', 'month', 'poutcome'] used a label encoder
   
+# Heatmap
+After converting all featres in to numeric,below heat map shows initial corelation.
+![image](https://github.com/NippaniP/Comparing-Classifiers-Bank-Marketing/assets/157237232/3507775e-a6f5-43f8-9951-228b7913b30e)

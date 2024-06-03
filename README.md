@@ -28,3 +28,9 @@ For all the columns_with_categories such as for ['job', 'marital', 'education', 
 # Heatmap
 After converting all featres in to numeric,below heat map shows initial corelation.
 ![image](https://github.com/NippaniP/Comparing-Classifiers-Bank-Marketing/assets/157237232/3507775e-a6f5-43f8-9951-228b7913b30e)
+
+# KNN 
+For the KNN model, I tried multiple n neighbours and using GridSearch CV, n=95 was found to be the best model with following RoC curve Display
+![image](https://github.com/NippaniP/Comparing-Classifiers-Bank-Marketing/assets/157237232/d95d964b-cd86-4f40-ba18-82be80b4a3d0)
+
+
